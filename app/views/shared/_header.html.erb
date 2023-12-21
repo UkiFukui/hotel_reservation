@@ -1,0 +1,15 @@
+  <header>
+    <nav>
+      <div class="header-content">
+        <%= link_to root_path do %>
+          <%= image_tag 'logo.png', class: 'logo-top' %>
+        <% end %>
+        <ul class="nav">
+          <li class="nav-item">ログイン</li>
+          <li class="nav-item">
+            <%= link_to "新規登録", root_path, class: "btn btn-new"  %>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
